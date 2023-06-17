@@ -2,7 +2,7 @@ package gomponents
 import (
 github_com_maragudk_gomponents "github.com/maragudk/gomponents"
 )
-func Import() {
+func Import(Api *map[string]map[string]interface{}) {
 if _, ok := Api["github.com/maragudk/gomponents"]; !ok {
    Api["github.com/maragudk/gomponents"] = map[string]interface{}{}
 }

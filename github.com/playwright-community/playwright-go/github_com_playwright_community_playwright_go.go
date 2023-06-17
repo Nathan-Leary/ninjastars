@@ -2,7 +2,7 @@ package playwright_go
 import (
 github_com_playwright_community_playwright_go "github.com/playwright-community/playwright-go"
 )
-func Import() {
+func Import(Api *map[string]map[string]interface{}) {
 if _, ok := Api["github.com/playwright-community/playwright-go"]; !ok {
    Api["github.com/playwright-community/playwright-go"] = map[string]interface{}{}
 }

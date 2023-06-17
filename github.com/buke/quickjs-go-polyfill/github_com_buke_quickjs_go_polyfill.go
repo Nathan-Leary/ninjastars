@@ -2,7 +2,7 @@ package quickjs_go_polyfill
 import (
 github_com_buke_quickjs_go_polyfill "github.com/buke/quickjs-go-polyfill"
 )
-func Import() {
+func Import(Api *map[string]map[string]interface{}) {
 if _, ok := Api["github.com/buke/quickjs-go-polyfill"]; !ok {
    Api["github.com/buke/quickjs-go-polyfill"] = map[string]interface{}{}
 }

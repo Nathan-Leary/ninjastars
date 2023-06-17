@@ -2,7 +2,7 @@ package cast
 import (
 github_com_spf13_cast "github.com/spf13/cast"
 )
-func Import() {
+func Import(Api *map[string]map[string]interface{}) {
 if _, ok := Api["github.com/spf13/cast"]; !ok {
    Api["github.com/spf13/cast"] = map[string]interface{}{}
 }
