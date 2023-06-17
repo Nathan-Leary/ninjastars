@@ -2,7 +2,7 @@ package lorca
 import (
 github_com_zserge_lorca "github.com/zserge/lorca"
 )
-func init() {
+func Import() {
 if _, ok := Api["github.com/zserge/lorca"]; !ok {
    Api["github.com/zserge/lorca"] = map[string]interface{}{}
 }

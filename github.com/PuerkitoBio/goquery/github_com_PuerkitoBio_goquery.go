@@ -2,7 +2,7 @@ package goquery
 import (
 github_com_PuerkitoBio_goquery "github.com/PuerkitoBio/goquery"
 )
-func init() {
+func Import() {
 if _, ok := Api["github.com/PuerkitoBio/goquery"]; !ok {
    Api["github.com/PuerkitoBio/goquery"] = map[string]interface{}{}
 }

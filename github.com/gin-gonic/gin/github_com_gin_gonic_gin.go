@@ -2,7 +2,7 @@ package gin
 import (
 github_com_gin_gonic_gin "github.com/gin-gonic/gin"
 )
-func init() {
+func Import() {
 if _, ok := Api["github.com/gin-gonic/gin"]; !ok {
    Api["github.com/gin-gonic/gin"] = map[string]interface{}{}
 }

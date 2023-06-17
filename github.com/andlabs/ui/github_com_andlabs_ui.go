@@ -2,7 +2,7 @@ package ui
 import (
 github_com_andlabs_ui "github.com/andlabs/ui"
 )
-func init() {
+func Import() {
 if _, ok := Api["github.com/andlabs/ui"]; !ok {
    Api["github.com/andlabs/ui"] = map[string]interface{}{}
 }

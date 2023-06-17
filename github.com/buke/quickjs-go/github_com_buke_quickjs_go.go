@@ -1,8 +1,8 @@
-package quickjs-go
+package quickjs_go
 import (
 github_com_buke_quickjs_go "github.com/buke/quickjs-go"
 )
-func init() {
+func Import() {
 if _, ok := Api["github.com/buke/quickjs-go"]; !ok {
    Api["github.com/buke/quickjs-go"] = map[string]interface{}{}
 }
