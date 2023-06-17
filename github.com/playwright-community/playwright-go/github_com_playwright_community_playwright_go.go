@@ -1,4 +1,4 @@
-package main
+package playwright-go
 import (
 github_com_playwright_community_playwright_go "github.com/playwright-community/playwright-go"
 )

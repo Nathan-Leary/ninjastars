@@ -1,4 +1,4 @@
-package main
+package go-chart
 import (
 github_com_wcharczuk_go_chart "github.com/wcharczuk/go-chart"
 )

@@ -1,4 +1,4 @@
-package main
+package gomponents
 import (
 github_com_maragudk_gomponents "github.com/maragudk/gomponents"
 )

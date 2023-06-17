@@ -1,4 +1,4 @@
-package main
+package excelize
 import (
 github_com_qax_os_excelize "github.com/qax-os/excelize"
 )

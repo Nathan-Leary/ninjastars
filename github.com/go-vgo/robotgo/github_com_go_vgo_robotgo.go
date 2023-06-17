@@ -1,4 +1,4 @@
-package main
+package robotgo
 import (
 github_com_go_vgo_robotgo "github.com/go-vgo/robotgo"
 )

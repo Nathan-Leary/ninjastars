@@ -1,4 +1,4 @@
-package main
+package quickjs-go-polyfill
 import (
 github_com_buke_quickjs_go_polyfill "github.com/buke/quickjs-go-polyfill"
 )

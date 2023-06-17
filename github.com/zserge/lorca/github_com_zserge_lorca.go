@@ -1,4 +1,4 @@
-package main
+package lorca
 import (
 github_com_zserge_lorca "github.com/zserge/lorca"
 )

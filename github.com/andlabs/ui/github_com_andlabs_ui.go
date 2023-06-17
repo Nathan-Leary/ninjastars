@@ -1,4 +1,4 @@
-package main
+package ui
 import (
 github_com_andlabs_ui "github.com/andlabs/ui"
 )

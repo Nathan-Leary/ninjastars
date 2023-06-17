@@ -1,4 +1,4 @@
-package main
+package cast
 import (
 github_com_spf13_cast "github.com/spf13/cast"
 )

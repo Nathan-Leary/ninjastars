@@ -1,4 +1,4 @@
-package main
+package quickjs-go
 import (
 github_com_buke_quickjs_go "github.com/buke/quickjs-go"
 )

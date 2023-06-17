@@ -1,4 +1,4 @@
-package main
+package goquery
 import (
 github_com_PuerkitoBio_goquery "github.com/PuerkitoBio/goquery"
 )

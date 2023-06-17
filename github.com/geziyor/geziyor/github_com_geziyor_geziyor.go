@@ -1,4 +1,4 @@
-package main
+package geziyor
 import (
 github_com_geziyor_geziyor "github.com/geziyor/geziyor"
 )
