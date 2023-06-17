@@ -2,7 +2,8 @@ package goquery
 import (
 github_com_PuerkitoBio_goquery "github.com/PuerkitoBio/goquery"
 )
-func Import(Api *map[string]map[string]interface{}) {
+var Api map[string]map[string]interface{} = map[string]map[string]interface{}{}
+func init() {
 if _, ok := Api["github.com/PuerkitoBio/goquery"]; !ok {
    Api["github.com/PuerkitoBio/goquery"] = map[string]interface{}{}
 }

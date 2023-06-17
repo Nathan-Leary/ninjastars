@@ -2,7 +2,8 @@ package geziyor
 import (
 github_com_geziyor_geziyor "github.com/geziyor/geziyor"
 )
-func Import(Api *map[string]map[string]interface{}) {
+var Api map[string]map[string]interface{} = map[string]map[string]interface{}{}
+func init() {
 if _, ok := Api["github.com/geziyor/geziyor"]; !ok {
    Api["github.com/geziyor/geziyor"] = map[string]interface{}{}
 }

@@ -2,7 +2,8 @@ package excelize
 import (
 github_com_qax_os_excelize "github.com/qax-os/excelize"
 )
-func Import(Api *map[string]map[string]interface{}) {
+var Api map[string]map[string]interface{} = map[string]map[string]interface{}{}
+func init() {
 if _, ok := Api["github.com/qax-os/excelize"]; !ok {
    Api["github.com/qax-os/excelize"] = map[string]interface{}{}
 }

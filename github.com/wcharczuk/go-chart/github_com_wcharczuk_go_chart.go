@@ -2,7 +2,8 @@ package go_chart
 import (
 github_com_wcharczuk_go_chart "github.com/wcharczuk/go-chart"
 )
-func Import(Api *map[string]map[string]interface{}) {
+var Api map[string]map[string]interface{} = map[string]map[string]interface{}{}
+func init() {
 if _, ok := Api["github.com/wcharczuk/go-chart"]; !ok {
    Api["github.com/wcharczuk/go-chart"] = map[string]interface{}{}
 }

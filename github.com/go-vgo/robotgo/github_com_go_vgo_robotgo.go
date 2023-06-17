@@ -2,7 +2,8 @@ package robotgo
 import (
 github_com_go_vgo_robotgo "github.com/go-vgo/robotgo"
 )
-func Import(Api *map[string]map[string]interface{}) {
+var Api map[string]map[string]interface{} = map[string]map[string]interface{}{}
+func init() {
 if _, ok := Api["github.com/go-vgo/robotgo"]; !ok {
    Api["github.com/go-vgo/robotgo"] = map[string]interface{}{}
 }
