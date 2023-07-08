@@ -7,6 +7,9 @@ func init() {
 if _, ok := Api["github.com/qax-os/excelize"]; !ok {
    Api["github.com/qax-os/excelize"] = map[string]interface{}{}
 }
+if _, ok := Api["github.com/qax-os/excelize/new"]; !ok {
+	Api["github.com/qax-os/excelize/new"] = map[string]interface{}{}
+}
 Api["github.com/qax-os/excelize"]["STCellFormulaTypeArray"] = github_com_qax_os_excelize.STCellFormulaTypeArray
 Api["github.com/qax-os/excelize"]["STCellFormulaTypeDataTable"] = github_com_qax_os_excelize.STCellFormulaTypeDataTable
 Api["github.com/qax-os/excelize"]["STCellFormulaTypeNormal"] = github_com_qax_os_excelize.STCellFormulaTypeNormal
@@ -71,26 +74,33 @@ Api["github.com/qax-os/excelize"]["ThemeColor"] = github_com_qax_os_excelize.The
 Api["github.com/qax-os/excelize"]["TitleToNumber"] = github_com_qax_os_excelize.TitleToNumber
 Api["github.com/qax-os/excelize"]["ToAlphaString"] = github_com_qax_os_excelize.ToAlphaString
 Api["github.com/qax-os/excelize"]["Comment"] = github_com_qax_os_excelize.Comment{}
+Api["github.com/qax-os/excelize/new"]["Comment"] = func(args ...interface{}) interface{} {
+					return new(github_com_qax_os_excelize.Comment)
+}
 Api["github.com/qax-os/excelize"]["DataValidation"] = github_com_qax_os_excelize.DataValidation{}
+Api["github.com/qax-os/excelize/new"]["DataValidation"] = func(args ...interface{}) interface{} {
+					return new(github_com_qax_os_excelize.DataValidation)
+}
 Api["github.com/qax-os/excelize"]["NewDataValidation"] = github_com_qax_os_excelize.NewDataValidation
 Api["github.com/qax-os/excelize"]["DataValidationErrorStyleStop"] = github_com_qax_os_excelize.DataValidationErrorStyleStop
 Api["github.com/qax-os/excelize"]["DataValidationErrorStyleWarning"] = github_com_qax_os_excelize.DataValidationErrorStyleWarning
 Api["github.com/qax-os/excelize"]["DataValidationErrorStyleInformation"] = github_com_qax_os_excelize.DataValidationErrorStyleInformation
 Api["github.com/qax-os/excelize"]["ErrSheetNotExist"] = github_com_qax_os_excelize.ErrSheetNotExist{}
+Api["github.com/qax-os/excelize/new"]["ErrSheetNotExist"] = func(args ...interface{}) interface{} {
+					return new(github_com_qax_os_excelize.ErrSheetNotExist)
+}
 Api["github.com/qax-os/excelize"]["File"] = github_com_qax_os_excelize.File{}
+Api["github.com/qax-os/excelize/new"]["File"] = func(args ...interface{}) interface{} {
+					return new(github_com_qax_os_excelize.File)
+}
 Api["github.com/qax-os/excelize"]["NewFile"] = github_com_qax_os_excelize.NewFile
-Api["github.com/qax-os/excelize"]["OpenFile"] = github_com_qax_os_excelize.OpenFile
 Api["github.com/qax-os/excelize"]["OpenReader"] = github_com_qax_os_excelize.OpenReader
 Api["github.com/qax-os/excelize"]["HSL"] = github_com_qax_os_excelize.HSL{}
+Api["github.com/qax-os/excelize/new"]["HSL"] = func(args ...interface{}) interface{} {
+					return new(github_com_qax_os_excelize.HSL)
+}
 Api["github.com/qax-os/excelize"]["Rows"] = github_com_qax_os_excelize.Rows{}
-Api["github.com/qax-os/excelize"]["HSLToRGB"] = github_com_qax_os_excelize.HSLToRGB
-Api["github.com/qax-os/excelize"]["RGBToHSL"] = github_com_qax_os_excelize.RGBToHSL
-Api["github.com/qax-os/excelize"]["ReadZipReader"] = github_com_qax_os_excelize.ReadZipReader
-Api["github.com/qax-os/excelize"]["ThemeColor"] = github_com_qax_os_excelize.ThemeColor
-Api["github.com/qax-os/excelize"]["TitleToNumber"] = github_com_qax_os_excelize.TitleToNumber
-Api["github.com/qax-os/excelize"]["ToAlphaString"] = github_com_qax_os_excelize.ToAlphaString
-Api["github.com/qax-os/excelize"]["NewDataValidation"] = github_com_qax_os_excelize.NewDataValidation
-Api["github.com/qax-os/excelize"]["NewFile"] = github_com_qax_os_excelize.NewFile
-Api["github.com/qax-os/excelize"]["OpenFile"] = github_com_qax_os_excelize.OpenFile
-Api["github.com/qax-os/excelize"]["OpenReader"] = github_com_qax_os_excelize.OpenReader
+Api["github.com/qax-os/excelize/new"]["Rows"] = func(args ...interface{}) interface{} {
+					return new(github_com_qax_os_excelize.Rows)
+}
 }

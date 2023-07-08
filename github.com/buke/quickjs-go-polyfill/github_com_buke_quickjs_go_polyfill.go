@@ -7,6 +7,8 @@ func init() {
 if _, ok := Api["github.com/buke/quickjs-go-polyfill"]; !ok {
    Api["github.com/buke/quickjs-go-polyfill"] = map[string]interface{}{}
 }
-Api["github.com/buke/quickjs-go-polyfill"]["InjectAll"] = github_com_buke_quickjs_go_polyfill.InjectAll
+if _, ok := Api["github.com/buke/quickjs-go-polyfill/new"]; !ok {
+	Api["github.com/buke/quickjs-go-polyfill/new"] = map[string]interface{}{}
+}
 Api["github.com/buke/quickjs-go-polyfill"]["InjectAll"] = github_com_buke_quickjs_go_polyfill.InjectAll
 }
